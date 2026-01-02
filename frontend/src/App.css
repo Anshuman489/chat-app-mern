@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;1,300&display=swap");
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #eaeaeaff inset !important;
+  box-shadow: 0 0 0 30px #e6e6e6ff inset !important;
+  -webkit-text-fill-color: black !important;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background-image: url("./background-image.jpg");
+  background-position: center;
+  background-size: cover;
+  color: black;
+}

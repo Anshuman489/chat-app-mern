@@ -1,0 +1,27 @@
+{
+  "name": "chat-app-mern",
+  "version": "1.0.0",
+  "description": "ChatHive",
+  "homepage": "https://github.com/Anshuman489/chat-app-mern#readme",
+  "bugs": {
+    "url": "https://github.com/Anshuman489/chat-app-mern/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshuman489/chat-app-mern.git"
+  },
+  "license": "ISC",
+  "author": "Anshuman",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.1",
+    "nodemon": "^3.1.11"
+  }
+}
